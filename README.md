@@ -4,7 +4,7 @@ The simple dictionary app for [Wordle](https://www.powerlanguage.co.uk/wordle/)
 
 ## demo
 
-WIP
+https://wordle-dic.vercel.app/
 
 ## icon license
 using 77 Essential Icons by [Bryn Taylor
