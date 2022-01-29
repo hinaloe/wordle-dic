@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Wordle dictonary</h1>
-        <p style={{fontSize: '0.6em'}}>Source code is available on <a href='https://vercel.com/hina/wordle-dic' className="App-link">GitHub</a>.</p>
+        <p style={{fontSize: '0.6em'}}>Source code is available on <a href='https://github.com/hinaloe/wordle-dic' className="App-link">GitHub</a>.</p>
       </header>
       <div>
         <form
