@@ -1,0 +1,73 @@
+.item {
+  display: flex;
+  flex-direction: column;
+
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+  width: 400px;
+  max-width: 80vw;
+  text-align: left;
+}
+
+.item.active {
+    border: solid 2px #3b90ff;
+}
+
+.itemName {
+    display: flex;
+}
+
+.item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+
+.word {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.inList {
+  font-size: 1.5em;
+  color: gold;
+}
+
+.icon {
+  fill: rgb(167, 167, 167);
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+}
+
+.icon path,
+.icon polygon,
+.icon rect {
+  fill: rgb(167, 167, 167);
+}
+
+.icon circle {
+  stroke: rgb(167, 167, 167);
+  stroke-width: 1;
+}
+
+.toggle {
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+.detail {
+    margin-top: 10px;
+}
+
+.detail button {
+    margin-right: 10px;
+}
