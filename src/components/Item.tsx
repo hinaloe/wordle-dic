@@ -20,9 +20,9 @@ export const Item: React.FC<Props> = function Item(props) {
     setOpen(!open);
   };
 
-  const copyToClipboard: MouseEventHandler<HTMLButtonElement> = (e) => {
+  const copyToClipboard: MouseEventHandler<HTMLButtonElement> = async (e) => {
     e.preventDefault();
-    navigator.clipboard.writeText(props.word);
+    await navigator.clipboard.writeText(props.word);
   };
 
   const openWiktionary: MouseEventHandler<HTMLButtonElement> = (e) => {
